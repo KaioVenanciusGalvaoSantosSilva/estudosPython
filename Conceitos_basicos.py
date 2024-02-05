@@ -224,11 +224,3 @@ except ZeroDivisionError:
         #agora você pode enviar seu projeto para o github
         #git push
     
-
-
-    #navegue até a pasta do projeto (cd caminho da pasta
-
-    #verifique as alterações (git status) 
-    #adicionar arquivos ao staging area (git add *)
-    #faça um commit (git commit -m "Mensagem sobre o que foi feito")
-    #envie os dados para o repositório online (git push origin main)
