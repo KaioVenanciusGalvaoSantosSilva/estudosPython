@@ -10,6 +10,7 @@ def example1():
     teste = "Teste"
     print("Variavel global é : ", nome)
     print("Variavel local é: ",teste)
+    #mais formas de impressão na sessão de concatenação
 
 example1()
 #-------------------------------------------------------
@@ -39,6 +40,23 @@ texto1 =  "O nome do Batman é"
 texto2 = " Bruce Wayne da Silva"
 print("O nome do Batman é " + " Bruce Wayne da Silva") # utilize  + entre os textos ou variaveis
 print( texto1 + texto2) # utilize  + entre os textos ou variaveis
+
+num = 1
+text = "texto"
+
+print("concatenação ", num , " resultado") #concatenação com virgula
+print(str(num)+" concatenaçao") #concatenação de numeros com texto, transformando o numero em string antes da concatenação.
+
+print(text + " segunda concatenacao")#concatenacão de string
+
+print(f"O {text} tem {len(text)} letras.")# concatenação com 'f'
+
+print("{} concatenaçao {} ".format(num, text))# concatenação com '.format(variavel)'
+
+variavel_concatena = text + " com algo adicionado " + str(num) #atribuição de string a variavel para exibição
+
+print(variavel_concatena)
+
 
 #Fatiamento
 frase = "Python é incrível!"
