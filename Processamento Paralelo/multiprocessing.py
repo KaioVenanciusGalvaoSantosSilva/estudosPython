@@ -34,6 +34,6 @@ if __name__ == "__main__":
     # Imprime os resultados
     print("Números de entrada:", numeros)
     print("Resultados:", resultados)
-    tempo = time.time()-float(tempo_inicial)
+    tempo = time.time()-(tempo_inicial)
     
     print("Demorou: " + str(tempo))
