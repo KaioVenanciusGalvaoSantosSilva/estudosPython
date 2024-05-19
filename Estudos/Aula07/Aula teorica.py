@@ -15,7 +15,7 @@
 #4 + -
 
 a = 10
-b = 2
+b = 3
 
 adição = a + b
 subtração = a - b
@@ -34,6 +34,14 @@ print(f"Módulo: {módulo}")
 print(f"Exponenciação: {exponenciação}")
 print(f"Divisão inteira: {divisão_inteira}")
 
+#Formatação para uma linha /n
+#Formatação para fim de linha end = " "
+
+print("A soma é {}, o produto é {} e a divisão é {:.2f}".format(adição, multiplicação, divisão))  # :.2f realiza a formatação de duas casas decimais
+print("A divisão inteira é {0} e a potência é {1}".format(divisão_inteira, exponenciação), end = " ")  # O uso do ,end = " " serve para ligar a proxima linha do print a atual
+print("- Esses são os resultados dos operadores aritméticos")
+print("\nUtilize o contra barra n para quebra de linha") # utilize \n para quebra de linha
+
 # EXEMPLOS
 
 exemplo1 = 5 + 3 * 2 # De acordo com a ordem de precedência  * + = 3*2 => 6 + 5 => 11
@@ -44,3 +52,4 @@ print("O resultado do exemplo2 é {}".format(exemplo2))
 
 exemplo3 = 3 * (5 + 4) ** 2 # De acordo com a ordem de precedência () ** * => (5+4) = 9 **2 = 81 => 3 * 81 = 243
 print("O resultado do exemplo3 é {}".format(exemplo3))
+print("FIM")
