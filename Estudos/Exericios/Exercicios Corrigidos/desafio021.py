@@ -10,8 +10,8 @@ musica = pygame.mixer.Sound("desafio021trim2.mp3")
 
 # Reproduz o arquivo MP3
 musica.play()
-pygame.time.delay(10000)#tocar por 10 seg
-musica.stop() 
+#pygame.time.delay(10000)#tocar por 10 seg
+#musica.stop() 
 
 # Mantém o programa em execução até que a música termine
 while pygame.mixer.get_busy():
