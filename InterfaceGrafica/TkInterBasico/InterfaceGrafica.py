@@ -1,6 +1,7 @@
 #O Tkinter é uma biblioteca gráfica padrão do Python para criar interfaces gráficas de usuário (GUI). É uma ferramenta poderosa para desenvolver aplicativos com interfaces intuitivas e interativas. 
 #Documentaçção 
 #https://docs.python.org/pt-br/3/library/tk.html
+#Lembre-se de sempre abrir a pasta do projeto em vez do arquivo .py
 
 import tkinter as tk
 from tkinter import PhotoImage
@@ -23,14 +24,18 @@ janela.geometry(f'{largura}x{altura}')
 #janela.geometry(f"{largura_tela}x{altura_tela}+0+0")
 
 # Define a janela para iniciar maximizada
-janela.state("zoomed")
+#janela.state("zoomed") #ACEITO SOMENTE NO WINDOWS
 
 # Define o caminho para o arquivo de ícone (.ico, .png, etc.)
-caminho_icone = "img/icons/cash.ico"
+#caminho_icone = "img/icons/cash.ico" #ACEITO SOMENTE NO WINDOWS
 
 # Define o ícone da janela
-janela.iconbitmap(caminho_icone)
+#janela.iconbitmap(caminho_icone) #ACEITO SOMENTE NO WINDOWS
 
+#Definir o ícone da janela para linux com base em uma imagem
+#import sys, os
+#program_directory=sys.path[0]
+#janela.iconphoto(True, PhotoImage(file=os.path.join(program_directory, "img/imagens/imagem.png")))
 
 # Adiciona um rótulo à janela
 label = tk.Label(janela, text="Olá, Tkinter!")
