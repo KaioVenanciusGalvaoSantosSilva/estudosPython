@@ -13,3 +13,4 @@ else:
     print("Viagem longa")
 
 print("O preço da passagem é de R$ {:.2f}".format(preco_passagem))
+
