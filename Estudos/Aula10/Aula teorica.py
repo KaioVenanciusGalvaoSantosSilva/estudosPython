@@ -3,7 +3,6 @@
 #O uso de IF(condição) auxilia a tomar decisões com base em uma condição especifica     #Estrutura condicional simples
 #o uso de IF(condição) ELSE gera um segundo comportamento caso não atenda as condições esperadas no IF  #Estrutura condicional composta
 
-
 #Exemplo1:
 print("Exemplo 1")
 
