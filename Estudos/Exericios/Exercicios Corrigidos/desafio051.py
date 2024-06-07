@@ -6,6 +6,8 @@ termo = primeiro_termo
 
 for c in range(primeiro_termo,10+termo):
 
-    print(termo)
+    print("{}° termo: {}".format(c-primeiro_termo+1,termo))
     termo = termo+razao
+
+print("\n")
     
