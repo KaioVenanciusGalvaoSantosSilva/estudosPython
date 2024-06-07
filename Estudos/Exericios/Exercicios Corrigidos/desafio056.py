@@ -8,15 +8,15 @@ nome =[]
 idade = []
 sexo = []
 
-for i in range(4):
-    nome.append(input("Digite o nome da pessoa {}: ".format(i+1)))
-    idade.append(int(input("Digite a idade da pessoa {}: ".format(i+1))))
-    sexo.append(input("Digite o sexo da pessoa {} (M/F): ".format(i+1)))
-
 media = 0.0
 mais_velho = 0
 nome_mais_velho = ""
 mulheres_menos_20 = 0
+
+for i in range(4):
+    nome.append(input("Digite o nome da pessoa {}: ".format(i+1)))
+    idade.append(int(input("Digite a idade da pessoa {}: ".format(i+1))))
+    sexo.append(input("Digite o sexo da pessoa {} (M/F): ".format(i+1)))
 
 for j in range(4):
     media = media+idade[j]
