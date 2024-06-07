@@ -29,9 +29,6 @@ for j in range(4):
 
 media = (media/4)
 
-for i in range(4):
-    print("Nome: {}, Idade: {}, Sexo: {}".format(nome[i], idade[i], sexo[i]))
-
 print("A média de idade do grupo é: {}".format(media))
 print("O homem mais velho é: {}".format(nome_mais_velho))
 print("Tem {} mulheres que tem menos de 20 anos.".format(mulheres_menos_20))
