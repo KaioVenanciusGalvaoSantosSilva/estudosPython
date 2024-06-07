@@ -2,6 +2,7 @@
 
 frase = str(input("Digite uma frase: "))
 palindromo = frase.split()
+palindromo = ''.join(palindromo)
 reverse = palindromo[::-1]
 if palindromo == reverse:
     print("Sim, a frase '{}' é um palindromo!".format(frase))
