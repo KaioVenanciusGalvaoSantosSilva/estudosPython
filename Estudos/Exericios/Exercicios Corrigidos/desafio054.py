@@ -12,7 +12,7 @@ maiores = 0
 menores = 0
 
 for j in range(7):
-    if ano_atual - pessoas[j] >= 18:
+    if ano_atual - pessoas[j] >= 21:
         maiores += 1
     else:
         menores += 1
