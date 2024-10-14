@@ -1,0 +1,3 @@
+teste
+linha2
+Nova linha adicionada.
